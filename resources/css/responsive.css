@@ -1,0 +1,94 @@
+/* 5000px and 1200 px okay with previous design*/
+
+/*==============================*/
+    /*==== BASIC SETUP ====*/
+/*===============================*/
+@media only screen and (max-width: 1024px){
+    .row{
+        margin: 15px;
+    }
+    .main_nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .hero_text_box{
+        width:90%;
+    }
+    .client_photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client_review{
+        width: 100%;
+        float:none;
+        text-align: center;
+    }
+    .contact_section form{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+@media only Screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0px;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    .span_1_of_2 {
+        width: 47.2%;
+    }
+}
+@media only screen and (max-width: 780px){
+    html{
+        font-size: 62.5%;
+    }
+    .little_description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .span_1_of_2 {
+        width: 100%;
+    }
+    .footer_section li{
+        display: inline-block;
+        margin: 1rem 1rem;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    .portfolio_filter button{
+        margin: .5rem .5rem;
+    }
+}
