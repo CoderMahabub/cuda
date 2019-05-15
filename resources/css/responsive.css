@@ -64,6 +64,10 @@
     h3{
         font-size: 2rem;
     }
+    .footer_section li{
+        display: inline-block;
+        margin: 1rem 1rem;
+    }
 }
 @media only screen and (max-width: 480px){
     .span_1_of_4{
@@ -71,10 +75,6 @@
     }
     .span_1_of_2 {
         width: 100%;
-    }
-    .footer_section li{
-        display: inline-block;
-        margin: 1rem 1rem;
     }
     html{
         font-size: 62.5%;
